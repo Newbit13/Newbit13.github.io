@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>小薇学院任务一</title>
+</head>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	color:#00F;
+}
+.box{
+	width:1500px;
+	margin:0 auto;
+	background:#dedede;
+}
+.header{
+	width:1500px;
+	height:54px;
+	margin:0 auto;
+	background:#333;
+}
+.logo{
+	float:left;
+	margin-left:20px;
+}
+.nav{
+	float:right;
+	line-height:54px;
+}
+.nav ul{
+	list-style-type:circle;
+}
+.nav li{
+	list-style-type:disc;
+	display:inline;
+	margin-right:20px;
+}
+.nav li a{
+	color:#FFF;
+	text-decoration:none;
+}
+.nav li a:hover{
+	color:#a7a8a2;
+}
+.article{
+	width:1420px;
+	margin:10px auto;
+	background:#fff;
+	padding:20px 10px;
+	border-bottom:1px solid #828282;
+	border-right:1px solid #828282;
+}
+.article span,.article h3{
+	color:#705e6e;
+}
+.nodot li{
+	list-style-type:none;
+	margin-left:20px;
+}
+.picture{
+	width:1420px;
+	margin:10px auto;
+	background:#fff;
+	padding:20px 10px;
+	border-bottom:1px solid #828282;
+	border-right:1px solid #828282;
+}
+.sidebar{
+	width:1420px;
+	margin:10px auto;
+	background:#fff;
+	padding:20px 10px;
+	border-bottom:1px solid #828282;
+	border-right:1px solid #828282;
+}
+.album{
+	border:1px solid #000;
+	display:table-cell;
+}
+.picture table{
+	margin-left:20px;
+}
+.picture table td{
+	border:1px solid #000;
+	text-align:center;
+	padding:10px;
+}
+.last li{
+	margin-left:40px;
+}
+.last th{
+	color:#fff;
+	background:#000;
+	width:200px;
+}
+.last table{
+	border:1px solid #ccc;
+}
+.last td,.last th{
+	border-bottom:1px solid #ccc;
+	padding-left:10px;
+}
+.total{
+	background:#ccc;
+}
+.last-column{
+	border-left:1px solid #ccc;
+}
+.footer{
+	background:#000;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	color:#fff;
+}
+.sidebar-title{
+	border-left:2px solid #cacaca;
+}
+.form-container{
+	margin-left:200px;
+}
+.form-container tr td:first-child{
+	text-align:right;
+}
+.form-container tr td:nth-child(2){
+	border-left:8px solid #fff;
+}
+.tip{
+	color:#a3a3a3;
+}
+.submit{
+	display:block;
+	background:#3355d0;
+	width:1200px;
+	border-radius:5px;
+	margin:0 auto;
+	padding-top:2px;
+	padding-bottom:2px;
+	color:#fff;
+}
+</style>
+<body>
+<div class="box">
+    <div class="header">
+        <div class="logo">
+            <a href="http://www.baidu.com" target="_blank"><img src="logo.jpg" alt="baidu logo" /></a>
+        </div>
+        <div class="nav">
+            <ul>
+           <!这里用了样式inline黑点就不见了，怎么解决？>
+                <li><a href="#">导航链接一</a></li>
+                <li><a href="#">导航链接二</a></li>
+                <li><a href="#">导航链接三</a></li>
+                <li><a href="#">导航链接四</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="article">
+        <h2>article's first title</h2>
+        <h3>article's second title</h3>
+        <span>writer</span>&nbsp;&nbsp;<span>publish time:<time datetime="2017-03-23" >2017-03-23</time></span>
+        <p>there has many many words,there has many many words,<br/>new line here<br/>there has many many words,there has many many words,<a href="http://ife.baidu.com">there is a link to "ife"</a>there has many many words,<b>there are bold word</b>there has many many words.</p>
+        <img src="suzume.jpg"  alt="miao"/>
+        <pre>lalalalal<b>bbbbhere</b>lalalalallala
+hahahhaha,newline
+lalalla<a href="http://ife.baidu.com" target="_blank">open a new widow for link</a>lalala the same</pre>
+	</div>
+    <div class="article nodot">
+        <h2>another article's first title</h2>
+        <h3>second title</h3>
+        <span>writer</span>&nbsp;&nbsp;<span>publish time:<time datetime="2017-03-23" >2017-03-23</time></span>
+        <p>there has many many words,there has many many words,<br/>new line here<br/>there has many many words,there has many many words,<a href="http://ife.baidu.com">there is a link to "ife"</a>there has many many words,<b>there are bold word</b>there has many many words.</p>
+        <img src="suzume.jpg" />
+        <ul>
+            <li>list one</li>
+            <li>list two</li>
+            <li>list three</li>
+        </ul>
+	</div>
+    <div class="picture">
+        <h3>picture</h3>
+        	<table cellspacing="10px">
+                <tr><td><p>nice picture</p><img src="suzume.jpg" width="300px" height="300px"/></td></tr>
+                <tr><td><p>nice picture</p><img src="suzume.jpg" width="300px" height="300px"/></td></tr>
+                <tr><td><p>nice picture</p><img src="suzume.jpg" width="300px" height="300px"/></td></tr>
+            </table>
+    </div>
+    <div class="article last">
+        <h2>laster article's first title</h2>
+        <h3>second title</h3>
+        <span>writer</span>&nbsp;&nbsp;<span>publish time:<time datetime="2017-03-23" >2017-03-23</time></span>
+        <ol>
+            <li>number one</li>
+            <li>number two</li>
+            <li>number three</li>
+        </ol>
+        <P>underhere is a format</P>
+        <table cellspacing="0">
+            <tr><th>head</th><th>head2</th> <th>head3</th></tr>
+            <tr><td>data</td><td>data</td><td class="last-column"><a href="#">click</a></td></tr>
+            <tr><td>data</td><td>data</td><td class="last-column"><a href="#">click</a></td></tr>
+            <tr><td>data</td><td>data</td><td class="last-column"><a href="#">click</a></td></tr>
+            <tr class="total"><td>total</td><td colspan="2">999999999</td></tr>
+        </table>  
+	</div>
+    <div class="sidebar">
+    	<div class="sidebar-title">
+        	<h2>there will be a sidebar,and is a title too</h2>
+        </div>
+        <form>
+        	<div class="form-container">
+            	<table>
+                <tbody>
+                <tr><td><label for="ad">the email address</label></td><td><input type="email" id="ad" placeholder="this is text"/></td></tr>
+                <tr><td></td><td><p class="tip">please input the correct format</p></td></tr>
+                <tr><td><label for="pw">password</label></td><td><input type="password" id="pw" placeholder="text text text"/></td></tr>
+                <tr><td><label for="pw2">password again</label></td><td><input type="password" id="pw2" placeholder="text text text"/></td></tr>
+                <tr><td></td><td><p class="tip">the password must be between 8-16 characters long</p></td></tr>
+                <tr><td><b>sex</b></td><td><input type="radio" value="male"  name="sex" id="m"/><label for="m">male</label>
+                <input type="radio" value="female" name="sex" id="w"/><label for="w">female</label></td></tr>
+                <tr><td><b>city</b></td><td><select name="city">
+                <option value="beijing">北京</option>
+                <option value="shenzhen">深圳</option>
+                <option value="shanghai">上海</option>
+                <option value="guangzhou">广州</option>
+                <option value="shantou">汕头</option>
+                </select></td></tr>
+                <tr><td><b>hobby</b></td><td><input type="checkbox" id="exercise" value="exercise" /><label for="exercise">exercise</label>
+                <input type="checkbox" id="art" value="art" /><label for="art">art</label>
+                <input type="checkbox" id="science" value="science" /><label for="science">sciense</label></td></tr>
+                <tr><td><b>personal description</b></td><td><textarea rows="2" cols="20" placeholder="this is a multiple"></textarea></td></tr>
+                </tbody>
+                </table>
+            </div>
+            <input  class="submit" type="submit" value="submit" />
+        </form>
+    </div>
+    <div class="footer">
+        <p>copy right@</p>
+    </div>
+</div>
+</body>
+</html>
