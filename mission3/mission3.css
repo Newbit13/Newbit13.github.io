@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.wrap{
+	background:#eee;
+	padding:20px;
+	border:1px solid #eee;
+	overflow:hidden;
+	min-width:590px;/*加入这个让屏幕小到一定程度会出现滚动条~~*/
+}
+
+.wrap-left{
+	background:#fff;
+	float:left;
+	width:200px;
+	position:relative;
+}
+
+.wrap-right{
+	background:#fff;
+	float:right;
+	width:120px;
+}
+
+.wrap-mid{
+	margin-left:220px;
+	margin-right:140px;
+	background:#fff;
+	padding:20px;
+}
+
+.wrap-left-logo{
+	margin:20px auto 20px 20px;
+	display:inline-block;
+}
+
+.wrap-left-teamname{
+	display:inline-block;
+	height:80px;
+	position:absolute;
+	left:120px;
+	margin-top:20px;
+}
+
+.wrap-right-cell{
+	margin:20px;
+}
+
+	
