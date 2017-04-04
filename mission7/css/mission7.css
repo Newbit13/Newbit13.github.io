@@ -20,7 +20,7 @@ a{
 }
 
 header{
-	height:56px;
+	height:57px;
 	background:#fff;
 }
 
@@ -67,11 +67,12 @@ header{
 	margin-left:6px;
 }
 
-.center-container .header-list .item-active{
+.center-container .header-list .header-list-item:hover{
 	border-bottom:4px solid #e74f4d;
+	
 }
 
-.center-container .header-list .item-active a{
+.center-container .header-list .header-list-item a:hover{
 	color:#e74f4d;
 }
 
@@ -280,6 +281,7 @@ header{
 
 .index-activity .index-activity-pics .index-activity-pics-box .pics-box-title{
 	font-size:20px;
+	font-family:"Microsoft YaHei";
 	text-align:center;
 }
 
