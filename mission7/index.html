@@ -4,9 +4,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>misson7</title>
 <link rel="stylesheet" href="css/mission7.css" type="text/css"/>
+<link rel="stylesheet" href="css/myselect.css" type="text/css"/>
 </head>
 <body>
-<div class="design-box">
+<div class="design-box" id="top">
   <header>
     <div class="center-container">
       <img class="logo-pic" src="img/header-logo.png" />
@@ -53,22 +54,82 @@
     <div class="index-map-text">每个城市的有不同的活动信息，请自主查询您所需要了解的城市</div>
     <div class="index-map-selectlist">
 	  <form>
-        <select>
-          <option value="China">中国</option>
-          <option value="America">美国</option>
-          <option value="Japan">日本</option>
-        </select>
-        <select>
-          <option value="beijing">北京</option>
-          <option value="guangdong">广东</option>
-          <option value="anhui">汕头</option>
-        </select>
-        <select>
-          <option value="beijing city">北京市</option>
-          <option value="shantou">汕头市</option>
-          <option value="taihu">太湖市</option>
-        </select>
-		<button>搜索</button>
+        <fieldset class="radio-container">
+            <div class="radio-options">
+                <div class="toggle">国家</div>
+                <ul>
+                   <li>
+                        <input type="radio" name="country" id="China" value="China">
+                        <label for="China"><span ></span>中国</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="country" id="America" value="America">
+                        <label for="America"><span ></span>美国</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="country" id="Japan" value="Japan">
+                        <label for="Japan"><span ></span>日本</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="country" id="Korea" value="Korea">
+                        <label for="Korea"><span ></span>韩国</label>
+                    </li>
+                      
+                </ul>
+            </div>
+        </fieldset>
+         <fieldset class="radio-container">
+            <div class="radio-options">
+                <div class="toggle">省份</div>
+                <ul>
+                   <li>
+                        <input type="radio" name="province" id="BeiJingCity" value="BeiJingCity">
+                        <label for="BeiJingCity"><span ></span>北京市</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="province" id="ShangHaiCity" value="ShangHaiCity">
+                        <label for="ShangHaiCity"><span ></span>上海市</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="province" id="HuNan" value="HuNan">
+                        <label for="HuNan"><span ></span>湖南省</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="province" id="GuangDong" value="GuangDong">
+                        <label for="GuangDong"><span ></span>广东省</label>
+                    </li>
+                      
+                </ul>
+            </div>
+        </fieldset>
+         <fieldset class="radio-container">
+            <div class="radio-options">
+                <div class="toggle">城市</div>
+                <ul>
+                   <li>
+                        <input type="radio" name="city" id="BeiJing" value="BeiJing">
+                        <label for="BeiJing"><span ></span>北京</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="city" id="ShangHai" value="ShangHai">
+                        <label for="ShangHai"><span ></span>上海</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="city" id="ShenZhen" value="ShenZhen">
+                        <label for="ShenZhen"><span ></span>深圳</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="city" id="NewYork" value="NewYork">
+                        <label for="NewYork"><span ></span>纽约</label>
+                    </li>
+                      
+                </ul>
+            </div>
+        </fieldset>
+    
+		<fieldset class="radio-container">
+          <button>搜索</button>
+        </fieldset>
       </form>
     </div>
   </div>
@@ -222,7 +283,10 @@
       <img class="footer-icon" src="img/bird.png" />
       <img class="footer-icon" src="img/world.png" />
     </div>
-    <div class="footer-copyright">@2016新世界</div>
+    <div class="footer-copyright">
+      @2016新世界
+      <a class="footer-btn" href="#top">Back to top</a>
+    </div>
   </footer>
 </div>
 </body>

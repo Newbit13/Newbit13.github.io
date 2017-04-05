@@ -230,26 +230,8 @@ header{
 	font-size:0;
 }
 
-.index-map .index-map-selectlist select{
-	appearance:none;
-	-moz-appearance:none;
-	-webkit-appearance:none;
-	background: url("../img/select.jpg") no-repeat scroll right center transparent;
-	width:234px;
-	height:34px;
-	border:1px solid #fff;
-	font-size:12px;
-	color:#a8aaaa;
-	margin-right:29px;
-}
-
-.index-map .index-map-selectlist select option{
-	font-size:12px;
-	background-color:#e3e3e3;
-	color:#787878;
-}
-
 .index-map .index-map-selectlist button{
+	display:block;
 	width:234px;
 	height:34px;
 	background:#be4e48;
@@ -258,6 +240,7 @@ header{
 	font-size:14px;
 	letter-spacing:26px;
 	padding-left:26px;
+	cursor:pointer;
 }
 
 .index-activity{
@@ -690,4 +673,12 @@ footer{
 	line-height:55px;
 	background:#303039;
 	margin-top:73px;
+}
+
+.footer-btn{
+	float:right;
+	font-size:12px;
+	font-family:simsun;
+	color:#fff;
+	margin-right:39px;	
 }
