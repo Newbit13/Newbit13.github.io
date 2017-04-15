@@ -99,6 +99,7 @@ nav a:hover{
 	width:90%;
 	margin:0 auto;
 	text-align:center;
+	padding-bottom:10px;
 }
 .grid{
 	flex:1;
@@ -197,4 +198,9 @@ section h2{
 .pic-flex-item{
 	float:left;
 	margin-right:1px;
+}
+
+.grid-mid{
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
 }
