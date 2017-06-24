@@ -1,0 +1,16 @@
+#project{
+	border:1px solid #f36;
+	width:400px;
+}
+#project h1{
+	color:#f36;
+}
+#project li{
+	font-size:24px;
+	margin-top:5px;
+	padding-left:20px;
+	background:#f36;
+}
+#project li a{
+	color:#fff;
+}
