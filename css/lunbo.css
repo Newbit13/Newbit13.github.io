@@ -1,0 +1,71 @@
+ /*轮播效果轮播效果轮播效果轮播效果轮播效果轮播效果*/
+        .container{
+            position: relative;
+            margin: 30px;
+            width: 480px;
+            height: 640px;
+            overflow: hidden;
+        }
+        .container input{
+            display: none;
+        }
+        .boxes{
+            width: 300%;
+            height: 100%;
+            position: absolute;
+            font-size: 0;
+            animation:slide 5s ease-out infinite;
+        }
+        @keyframes slide {
+            0% { margin-left:0;}
+            23% { margin-left:0;}
+            33% { margin-left:-480px;}
+            56% { margin-left:-480px;}
+            66% { margin-left:-960px;}
+            90% { margin-left:-960px;}
+            100% {margin-left:0;}
+        }
+        .box{
+            width: 480px;
+            height: 640px;
+            float: left;
+        }
+        .box1{
+            background-color: #b92c28;
+        }
+        .box2{
+            background-color: #eb9316;
+        }
+        .box3{
+            background-color: #2b542c;
+        }
+        #btn1:target ~ .boxes{
+            transition: left 1s;
+            animation:none;
+            left: 0;
+        }
+        #btn2:target ~ .boxes {
+            transition: left 1s;
+            animation:none;
+            left: -100%;
+        }
+        #btn3:target ~ .boxes {
+            transition: left 1s;
+            animation:none;
+            left: -200%;
+        }
+        .btn{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        .btn a{
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.5);
+            color: #fff;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-decoration: none;
+            text-align: center;
+        }
