@@ -89,6 +89,7 @@ body div{
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center center;
+    box-shadow: 0px 0px 1px 0px #000;
     /* background-color:  #08136d
 ;  */
     /* border-color:  #08136d
