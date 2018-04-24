@@ -184,9 +184,9 @@ body div{
     padding-left: 0px;
     padding-right: 0px;
     background-image: url("../footer-bg.jpg")/*tpa=http://news2.sysu.edu.cn/sysu93/footer-bg.jpg*/; 
-    /*background-size: auto 100%;*/
-    background-repeat:repeat-x;
-    background-position:center top;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:center center;
 }
 
 #footer p{
